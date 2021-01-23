@@ -48,8 +48,8 @@ engine:
     # - lua_filter@single_char_first_filter # 单字优先方法
 
 speller:
-  max_code_length: 4                    # 四码上屏
-  auto_select: true                     # 自动上屏
+#  max_code_length: 4                    # 四码上屏
+#  auto_select: true                     # 自动上屏
 
 translator:
   dictionary: wubi86_jidian             # 翻译器将调取此字典文件
@@ -61,7 +61,7 @@ translator:
   preedit_format:                       # 上屏码自定义
 #    - xform/.+//
   comment_format:                       # 提示码自定义
-    - xform/.+//                        # 配置：消除所有候选词后的提示码
+#  - xform/.+//                        # 配置：消除所有候选词后的提示码
 
 
 reverse_lookup:
